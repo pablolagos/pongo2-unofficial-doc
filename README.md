@@ -30,3 +30,5 @@ Tag | Description
 ----|------------
 {% autoescape %} ...  {% endautoescape %} |
 {% block NAME %} ... {% endblock %} |
+{% comment %} ... {% endcomment %} |
+{% cycle "test1" "test2"\|variable \[as NAME] %} | <a href="https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#cycle" target="_blank" >Read in Django documentation</a>
