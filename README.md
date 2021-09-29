@@ -1,4 +1,5 @@
-# pongo2-unofficial-doc
+# pongo2 unofficial documentation
+
 Pongo2 is a complete templating system but lacks sufficient documentation. This file contains unofficial documentation obtained from direct observation of the source code.
 
 ## Operators
