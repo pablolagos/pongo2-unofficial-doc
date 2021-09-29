@@ -32,3 +32,7 @@ Tag | Description
 {% block NAME %} ... {% endblock %} |
 {% comment %} ... {% endcomment %} |
 {% cycle "test1" "test2"\|variable \[as NAME] %} | <a href="https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#cycle" target="_blank" >Read in Django documentation</a>
+{% extends FILENAME %} | 
+{% filter FILTERS %}...{% endfilter %} | [Read in Django documentation](https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#filter)
+{% firstof LIST %} | [Read in Django documentation](https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#firstof)
+{% for \[key,] value in list \[reversed\|sorted] %}<br> ... <br>{% empty %}<br> ... <br>{% endfor %} | [Read in Django documentation](https://docs.djangoproject.com/en/3.2/ref/templates/builtins/#for)
